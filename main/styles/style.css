@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+
+.topside{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.topside div{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.content div{
+    text-align: center;
+    font-size: 150px;
+    font-family: fuji;
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
+
+.contentbuttons{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contentbuttons div{
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.contentbuttons div p{
+    margin: 10px;
+}
+
+.recent{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.recent .recenttitle{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    border: 1px solid white;
+
+}
+
+#posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 45px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#posts div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5%;
+    margin: 10px;
+    text-align: center;
+}
+
+.f{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 30px   
+}
+
+.test{
+    text-align: center;
+    font-size: 30px;
+    font-family: fuji;
+    color: white;
+    text-shadow: black 1px 0 10px;
+    text-decoration: none;
+}
+
+
+.team-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 20px;
+}
+
+.team-container p{
+    font-family: bebas;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.team-container div{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.titlebox{
+    font-family: bebas;
+    font-size: 20px;
+    background-color: black;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.table-container{
+    background-color: white;
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: fuji;
+    src: url(../fonts/FujiFantastic.otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/BebasRegular.otf);
+}
+
+.header-my-teams{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.find-scrim-filter{
+display: flex;
+justify-content: center;
+}
+
+.find-scrim-filter div{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.alertdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-container-find{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 30px;
+}
+
+.team-container-find p{
+    font-family: bebas;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.team-container-find div a{
+    text-decoration: none;
+}
+
+.team-container-find div{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}

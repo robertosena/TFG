@@ -1,0 +1,58 @@
+#scrimbox{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 20px;
+}
+
+#scrimbox div{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(./fonts/BebasRegular.otf);
+}
+.titlebox{
+    font-family: bebas;
+    font-size: 20px;
+    background-color: black;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.elobox{
+    font-family: bebas;
+    margin: 0;
+    padding: 0;
+}
+
+.serverbox{
+    font-family: bebas;
+    margin: 0;
+    padding: 0;
+}
+
+.datebox{
+    font-family: bebas;
+    margin: 0;
+    padding: 0;
+}
+
+.opggbox{
+    font-family: bebas;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    color: red;
+}
