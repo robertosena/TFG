@@ -1,5 +1,5 @@
 # TFG
-Trabajo de final de grado
+Trabajo de final de grado hecho en PHP + Javascript + SQL
 
 Front page
 ![alt text](https://github.com/robertosena/TFG/blob/main/frontpage.png?raw=true)
